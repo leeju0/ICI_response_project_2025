@@ -9,21 +9,21 @@ BioXNet paper : https://www.biorxiv.org/content/10.1101/2024.01.29.576766v1
 
 # Methods
 --- 
-1. Hierarchical Pathway Network
+1. Hierarchical Pathway Network :
 Integrates Reactome’s pathway relationships, creating sparse mask matrices for gene-pathway and pathway-pathway connections.
 Each model layer corresponds to biological entities (genes or pathways) progressively reducing dimensions from genes to high-order pathways.
 
-2. Multi-task Learning
+2. Multi-task Learning :
 Predicts patient response and classifies data into multiple domain cohorts (e.g., TCGA, Liu, Hugo).
 Includes gradient reversal layers for adversarial domain adaptation.
 
-3. Attention Mechanisms
+3. Attention Mechanisms :
 Assigns attention weights to highlight biologically important features contributing to predictions.
 
-4. Weight Transfer
+4. Weight Transfer :
 Fine-tunes the pre-trained model (from TCGA data) for predicting drug responses in other ICI cohorts (e.g., Liu, Hugo).
 
-5. Data Integration
+5. Data Integration :
 Combines genomic profiles (methylation, mutation, CNV) and clinical data to enhance interpretability and performance.
 
 # Model Architecture:
