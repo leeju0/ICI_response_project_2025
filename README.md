@@ -31,6 +31,8 @@ Combines genomic profiles (methylation, mutation, CNV) and clinical data to enha
 + Shared Encoder: Hierarchical structure from genes to pathways.(BioXNet)
 + Response Classifier: Predicts drug response.
 + Domain Classifier: Adapts to cohort variations using adversarial learning.
+![image](https://github.com/user-attachments/assets/8f34cf90-ac59-4c9b-a5af-b652d0f137d7)
+![image](https://github.com/user-attachments/assets/e676df5e-32c5-4829-a2d1-5c1bc6bc37a7)
 
 # Input Data
 ---
