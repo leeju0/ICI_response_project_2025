@@ -28,15 +28,15 @@ Combines genomic profiles (methylation, mutation, CNV) and clinical data to enha
 
 # Model Architecture:
 ---
-Shared Encoder: Hierarchical structure from genes to pathways.(BioXNet)
-Response Classifier: Predicts drug response.
-Domain Classifier: Adapts to cohort variations using adversarial learning.
++ Shared Encoder: Hierarchical structure from genes to pathways.(BioXNet)
++ Response Classifier: Predicts drug response.
++ Domain Classifier: Adapts to cohort variations using adversarial learning.
 
 # Input Data
 ---
-Genomic Data: CNV, mutation, gene expression for 6,640 genes derived from TCGA and other cohorts.
-Pathway Relationships: Reactome’s pathway hierarchy. Gene-to-pathway associations.
-Clinical Features: Cancer type, treatment type, gender, age.
++ Genomic Data: CNV, mutation, gene expression for 6,640 genes derived from TCGA and other cohorts.
++ Pathway Relationships: Reactome’s pathway hierarchy. Gene-to-pathway associations.
++ Clinical Features: Cancer type, treatment type, gender, age.
 
 
 
