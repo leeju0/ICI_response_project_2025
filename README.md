@@ -10,7 +10,6 @@ BioXNet paper : https://www.biorxiv.org/content/10.1101/2024.01.29.576766v1
 # Methods
 --- 
 1. Hierarchical Pathway Network
-
 Integrates Reactome’s pathway relationships, creating sparse mask matrices for gene-pathway and pathway-pathway connections.
 Each model layer corresponds to biological entities (genes or pathways) progressively reducing dimensions from genes to high-order pathways.
 
